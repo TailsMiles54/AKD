@@ -528,11 +528,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 878312226}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &923184013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6245160587866786088, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+  m_PrefabInstance: {fileID: 3830521091022056741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &923184014 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1566336292443591384, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
   m_PrefabInstance: {fileID: 3830521091022056741}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &923184015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923184013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d306aa61a7584e2c9ebfae986196461b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _garageDoor: {fileID: 3830521091022056742}
+  _garageDoorOpenPosition: {x: 0, y: 2.661, z: -3}
+  _garageDoorOpenRotation: {x: -90, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -618,8 +638,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.00633885, y: -0.9891448, z: 0.04484922, w: -0.13978885}
+  m_LocalPosition: {x: -1.6991847, y: 1.9429293, z: 7.059105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -769,6 +789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 550fab45bdbe7e6448140b943a543738, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _garageController: {fileID: 923184015}
 --- !u!114 &1582752221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -921,6 +942,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4641292091575671419, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641292091575671419, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4641292091575671419, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6245160587866786088, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
       propertyPath: m_Name
       value: Garage
@@ -928,8 +961,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6245160587866786088, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 923184015}
   m_SourcePrefab: {fileID: 100100000, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+--- !u!4 &3830521091022056742 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4641292091575671419, guid: e8d3dc537ae63f74da6bf6df1d457ac3, type: 3}
+  m_PrefabInstance: {fileID: 3830521091022056741}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8012695751157007451
 PrefabInstance:
   m_ObjectHideFlags: 0

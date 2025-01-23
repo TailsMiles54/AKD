@@ -14,14 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _itemsSettings:
     <Items>k__BackingField:
-    - <Prefab>k__BackingField: {fileID: 7795102498530785269, guid: c2f17a2926fbc774d990dd6e286d4fad, type: 3}
-    - <Prefab>k__BackingField: {fileID: 3413711846715311720, guid: 7695c0d2e92da0e4f8d08c7909230b47, type: 3}
     - <Prefab>k__BackingField: {fileID: 3447407846402289519, guid: 009ac3bc89a8c994aaa64e90fed60ab2, type: 3}
     - <Prefab>k__BackingField: {fileID: 298304564950268036, guid: 20fb32c38fa4cf14c98f0e754db93073, type: 3}
     - <Prefab>k__BackingField: {fileID: 9186298254406481068, guid: 26a2420e41111fa4384c8adc35b250b1, type: 3}
-    - <Prefab>k__BackingField: {fileID: 4372837166587407497, guid: 91c8c6751f26bcc4a9425c9fc23fd227, type: 3}
     - <Prefab>k__BackingField: {fileID: 4476808827924231168, guid: 7c525024ae8431e45b357520bb8407a6, type: 3}
-    - <Prefab>k__BackingField: {fileID: 4101112173780443809, guid: 494d1072afe81fe449dc0c5b43fb5099, type: 3}
-    - <Prefab>k__BackingField: {fileID: 208974801609211804, guid: 0177ee00efab698438288ebb753747ce, type: 3}
-    - <Prefab>k__BackingField: {fileID: 4763749918957636779, guid: 76a7e6c2e588e024d85efa115fe688c2, type: 3}
     - <Prefab>k__BackingField: {fileID: 2074894252628855407, guid: 39ce2aae8ff6f9148acb0e82db36ee1d, type: 3}
